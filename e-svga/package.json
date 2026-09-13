@@ -1,0 +1,28 @@
+{
+  "name": "e-svga",
+  "version": "2.1.1",
+  "description": "high performance svga player",
+  "files": [
+    "dist"
+  ],
+  "maintainers": [
+    "xuhongbin",
+    "zhanghaifeng2",
+    "liangxiaoming"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.mts",
+  "author": "Ken",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "@types/offscreencanvas": "^2019.6.4",
+    "tsup": "^8.1.0",
+    "@hd/inline-worker": "^0.0.1"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  }
+}
